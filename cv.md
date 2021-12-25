@@ -29,3 +29,7 @@ function multiply(a, b){
 ```
 ## Experience
 No
+
+## Education
+* Secondary education
+* Courses: No
