@@ -20,3 +20,10 @@ My goal is to set a goal for myself and achieve it, now my main goal is to becom
     + Figma
     + GitHub
     + DevTools in browser
+
+## Example code
+``` javascript
+function multiply(a, b){
+  return a * b
+}
+```
