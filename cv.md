@@ -33,3 +33,7 @@ No
 ## Education
 * Secondary education
 * Courses: No
+* Trainings: No
+
+## English
+A0
