@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -19,6 +23,7 @@ header {
   left: 0;
   top: 0;
   width: 100%;
+  z-index: 5;
 }
 
 .nav-link {
@@ -46,8 +51,11 @@ header {
 }
 
 main {
-  margin-top: 70px;
   background-color: #000000;
+}
+
+section {
+  height: 100vh;
 }
 
 .avtor {
@@ -68,10 +76,11 @@ main {
   border-radius: 100%;
 }
 
-.contacts-title {
+.title {
   color: #ffffff;
   text-align: center;
   font-size: 50px;
+  margin: 80px 0 30px;
 }
 
 .contacts-list {
@@ -123,4 +132,10 @@ main {
   height: 30px;
   position: absolute;
   left: 0;
+}
+
+.summary-text {
+  color: #ffffff;
+  text-align: center;
+  font-size: 30px;
 }
