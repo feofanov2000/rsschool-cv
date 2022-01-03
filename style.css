@@ -67,9 +67,15 @@ section {
 
 .avtor-name {
   font-size: 100px;
+  padding: 20px 0 20px 40px;
+  color: #ffffff;
+}
+
+.avtor-surname {
   padding: 20px 40px;
   background-color: #ffffff;
   border-radius: 100px;
+  color: #000000;
 }
 
 .avtor-img {
@@ -149,7 +155,6 @@ section {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
-  justify-content: space-around;
 }
 
 .skills-item {
@@ -189,4 +194,21 @@ section {
   color: #ffffff;
   font-size: 30px;
   text-align: center;
+}
+
+.code-text {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.code-red {
+  color: #ff0000;
+}
+
+.code-yellow {
+  color: #ffe600;
+}
+
+.code-green {
+  color: #00ff0d;
 }
