@@ -177,3 +177,9 @@ section {
   font-size: 30px;
   text-align: center;
 }
+
+.education-item {
+  color: #ffffff;
+  font-size: 30px;
+  margin: 20px 0;
+}
