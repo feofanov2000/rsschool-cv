@@ -139,3 +139,41 @@ section {
   text-align: center;
   font-size: 30px;
 }
+
+.skills {
+  height: auto;
+  padding-bottom: 40px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.skills-item {
+  border: 1px solid #ffffff;
+  width: 250px;
+  display: flex;
+  height: 250px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.skills-img {
+  width: 100px;
+}
+
+.skills-name {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.experience-text {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+}
