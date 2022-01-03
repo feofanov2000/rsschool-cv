@@ -149,6 +149,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
+  justify-content: space-around;
 }
 
 .skills-item {
@@ -182,4 +183,10 @@ section {
   color: #ffffff;
   font-size: 30px;
   margin: 20px 0;
+}
+
+.english-text {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
 }
