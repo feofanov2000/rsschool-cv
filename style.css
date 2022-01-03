@@ -27,6 +27,7 @@ header {
   transition: all 1s;
   padding: 10px 30px;
   border-radius: 20px;
+  font-size: 20px;
 }
 
 .nav-link:hover {
@@ -65,4 +66,61 @@ main {
 
 .avtor-img {
   border-radius: 100%;
+}
+
+.contacts-title {
+  color: #ffffff;
+  text-align: center;
+  font-size: 50px;
+}
+
+.contacts-list {
+  list-style: none;
+}
+
+.contacts-item {
+  color: #ffffff;
+  font-size: 24px;
+  position: relative;
+  padding: 20px 0 20px 50px;
+}
+
+.phone::before {
+  content: "";
+  display: block;
+  background: url("img/phone-call.png") center/cover no-repeat;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 0;
+}
+
+.email::before {
+  content: "";
+  display: block;
+  background: url("img/arroba.png") center/cover no-repeat;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 0;
+}
+
+.telegram::before {
+  content: "";
+  display: block;
+  background: url("img/telegram.png") center/cover no-repeat;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 0;
+}
+
+.discord::before {
+  content: "";
+  display: block;
+  background: url("img/discord.png") center/cover no-repeat;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 0;
 }
