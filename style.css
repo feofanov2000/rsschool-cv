@@ -87,6 +87,7 @@ section {
   text-align: center;
   font-size: 50px;
   margin: 80px 0 30px;
+  text-transform: uppercase;
 }
 
 .contacts-list {
@@ -211,4 +212,29 @@ section {
 
 .code-green {
   color: #00ff0d;
+}
+
+.footer {
+  height: 80px;
+  background-color: #ffffff;
+  padding: 20px 0;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.footer-item {
+  font-size: 24px;
+}
+
+.footer-link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.footer-img {
+  width: 100px;
 }
